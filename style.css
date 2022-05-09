@@ -1,13 +1,58 @@
 body{
-    background-color: #080808;
+    background-color: #f77f00;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+.heading-container{
+    background-color: #000000;
+}
+
+.name-text{
+    color: #f77f00;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
 
-.main-img-container{
-    width: 43%;
+
+
+/* .title-section{
+    margin-top: 4rem;
+    color: #14213d;
+} */
+
+.intro-text{
+    color: #14213d;
+    opacity: 0.75;
 }
 
-.title-section{
-    margin-top: 8rem;
+.title{
+    font-family: 'IBM Plex Sans', sans-serif;
+
 }
+
+.project-container{
+    color: #14213d;
+}
+
+
+.images-section{
+    padding: 50px 0;
+}
+
+.symbol{
+    font-size: 200px;
+}
+
+
+
+
+.note{
+    letter-spacing: -7px;
+}
+
+img{
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.15), 0px 7px 10px rgba(0, 0, 0, 0.08)
+}
+
+
