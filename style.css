@@ -1,14 +1,14 @@
 body{
-    background-color: #f77f00;
+    background-color: #EEEEE6;
     font-family: 'IBM Plex Mono', monospace;
     
 }
 .heading-container{
-    background-color: #000000;
+    background-color: #01161E;
 }
 
 .name-text{
-    color: #f77f00;
+    color: #EF5623;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -22,18 +22,25 @@ body{
 } */
 
 .intro-text{
-    color: #14213d;
+    color: #EF5623;
     opacity: 0.75;
+    font-size: 24px;
 }
 
 .title{
     font-family: 'IBM Plex Sans', sans-serif;
+    color: #01161E;
+
 
 }
 
-.project-container{
-    color: #14213d;
+
+.project-title{
+    color: #EF5623;
+
 }
+
+
 
 
 .images-section{
@@ -41,18 +48,67 @@ body{
 }
 
 .symbol{
-    font-size: 200px;
+    font-size: 250px;
+}
+
+
+.desc-row{
+    color: #01161E;
+    background-color: #EF5623;
+}
+
+.desc-container{
+    padding: 0 35px;
 }
 
 
 
 
 .note{
-    letter-spacing: -7px;
+    letter-spacing: -3px;
+    font-size: 35px;
+    color: #EF5623;
 }
 
 img{
     box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.15), 0px 7px 10px rgba(0, 0, 0, 0.08)
 }
 
+
+
+
+svg{
+    font-size: 200px;
+}
+
+
+
+.project-container:not(.collapsed){
+    
+    background-color: #01161E;
+    
+}
+.project-container{
+    
+    background-color: #EEEEE6;
+    transition: color .15s ease-in-out,background-color 300ms ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    
+}
+
+
+.accordion-button{
+    background-color: #EEEEE6;
+
+
+    transition: color .15s ease-in-out,background-color 300ms ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #01161E;
+    color: #EF5623;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
 
